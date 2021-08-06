@@ -7,7 +7,7 @@
         .then(res => res.json())
         .then(data =>{
                 
-         console.log(data);
+         
             const tem = data.main.temp;
             const temp = tem -273.15;
             const name = data.name;
@@ -15,7 +15,7 @@
             const discription = data.weather[0].main;
             const temp_min = data.main.temp_min;
             const temp_max = data.main.temp_max;
-            console.log(ic);
+          
             
             // Display ui
 
